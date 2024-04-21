@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: serverless-spring-goof
+  description: Goof for serverless spring
+  tags:
+    - spring
+spec:
+  type: service
+  lifecycle: production
+  owner: goof-serverless-team
+  system: goof-webapp
